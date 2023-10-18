@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.17)  18 OCT 2023 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.17)  18 OCT 2023 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -925,14 +925,21 @@ Overfull \hbox (18.34995pt too wide) in paragraph at lines 579--580
 
 [8 <./Bilder/WirkungsplanDrehzahlregelkreis.PNG> <./Bilder/GegenUndMitkopplung.
 PNG>]
-Overfull \hbox (13.16788pt too wide) in paragraph at lines 599--602
+Overfull \hbox (17.05675pt too wide) in paragraph at lines 599--602
 []\OT1/cmr/m/n/10 Dagegen enth[]alt der Wir-kungs-plan aus dem Auf-ga-ben-blatt
- (s. Ab-bil-dung 4.1[]) je-doch zwei Block im Vorw[]artszweig,
+ (s. Ab-bil-dung 4.1[]) je-doch zwei Bl[]ocke im Vorw[]artszweig,
  []
 
 [9]
+<Bilder/Sprungantwort_Gegenkopplung.PNG, id=71, 382.42876pt x 306.54526pt>
+File: Bilder/Sprungantwort_Gegenkopplung.PNG Graphic file (type png)
+<use Bilder/Sprungantwort_Gegenkopplung.PNG>
+Package pdftex.def Info: Bilder/Sprungantwort_Gegenkopplung.PNG  used on input 
+line 658.
+(pdftex.def)             Requested size: 267.69829pt x 214.5802pt.
+ [10 <./Bilder/Sprungantwort_Gegenkopplung.PNG>]
 chapter 5.
-(Ausarbeitung.bbl [10]) [11
+(Ausarbeitung.bbl [11]) [12
 
 
 ] (Ausarbeitung.aux)
@@ -942,10 +949,10 @@ L3 programming layer <2023-10-10>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 22473 strings out of 474823
- 449972 string characters out of 5750955
+ 22481 strings out of 474823
+ 450319 string characters out of 5750955
  1963043 words of memory out of 5000000
- 44088 multiletter control sequences out of 15000+600000
+ 44096 multiletter control sequences out of 15000+600000
  564049 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,9n,107p,10909b,1276s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -969,9 +976,9 @@ TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/wolfg/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/wolfg/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/wolfg/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Ausarbeitung.pdf (13 pages, 469986 bytes).
+Output written on Ausarbeitung.pdf (14 pages, 489979 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
+ 161 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

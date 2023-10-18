@@ -596,7 +596,7 @@ der Wirkungsplan keinen Block im Rückführungszweig enthält.
 G_r(j\omega) = 1
 \end{equation}
 
-Dagegen enthält der Wirkungsplan aus dem Aufgabenblatt (s. Abbildung \ref{fig:WirkungsplanDrehzahlregelkreis}) jedoch zwei Block im Vorwärtszweig, 
+Dagegen enthält der Wirkungsplan aus dem Aufgabenblatt (s. Abbildung \ref{fig:WirkungsplanDrehzahlregelkreis}) jedoch zwei Blöcke im Vorwärtszweig, 
 nämlich $F_r(j\omega)$ und $F_s(j\omega)$. Diese beiden Blöcke müssen zusammengefasst werden, damit die Formel $F(j\omega) = \frac{G_v(j\omega)}{1 + G_v(j\omega)G_r(j\omega)}$
 angewendet werden kann.
 
@@ -612,6 +612,54 @@ Es folgt nun die Bestimmung des Ersatzblocks aus allen obigen Angaben. Dazu werd
 \begin{equation}
 F(j\omega) = \frac{G_v(j\omega)}{1 + G_v(j\omega)G_r(j\omega)} = \frac{F_r(j\omega)F_s(j\omega)}{1 + F_r(j\omega)F_s(j\omega) * 1} = \frac{F_r(j\omega)F_s(j\omega)}{1 + F_r(j\omega)F_s(j\omega)}
 \end{equation}
+
+Es handelt sich jetzt um die zuvor gesuchte Formel aus der Versuchsanleitung.
+
+Im folgenden wird die Funktion in eine Form gebracht, in der die Zeros und Poles, Gain abgelesen werden können um die Übertragungsfunktion
+in Matlab eingeben und ein Bode Diagramm zeichnen zu können.
+
+\begin{equation}
+G(j\omega) = \frac{F_r(j\omega)F_s(j\omega)}{1 + F_r(j\omega)F_s(j\omega)} = \frac{\frac{K_{p}K_{s}}{(T_{1}j\omega + 1)(T_{2}j\omega + 1)}}{1 + \frac{K_{p}K_{s}}{(T_{1}j\omega + 1)(T_{2}j\omega + 1)}}
+= \frac{\frac{K_{p}K_{s}}{(T_{1}j\omega + 1)(T_{2}j\omega + 1)}}{\frac{(T_{1}j\omega + 1)(T_{2}j\omega + 1) + K_{p}K_{s}}{(T_{1}j\omega + 1)(T_{2}j\omega + 1)}}
+\end{equation}
+
+Durch Ausklammer der beiden Verstärkungen $K_{p}$ und $K_{s}$ ergibt sich
+
+\begin{equation}
+G(j\omega) = \frac{K_{p}K_{s}}{(T_{1}j\omega + 1)(T_{2}j\omega + 1) + K_{p}K_{s}} = K_{p}K_{s}(\frac{1}{(T_{1}j\omega + 1)(T_{2}j\omega + 1) + 1})
+\end{equation}
+
+Wird der Nenner auf Nullstellen untersucht, ergeben sich die Nullstellen $-\frac{1}{10}$ und $-\frac{1}{600}$. Der Nenner wird faktorisiert in
+
+\begin{equation}
+G(j\omega) = K_{p}K_{s}( \frac{1}{(j\omega + \frac{1}{10})(j\omega + \frac{1}{600})} )
+\end{equation}
+
+Es handelt sich prinzipiell um die gleiche Übertragungsfunktion wie zuvor bis auf den Unterschied, dass der proportionale P-Regler seine Verstärkung $K_{p}$ beiträgt,
+die zum $K_{s}$ multipliziert wird.
+
+Die Sprungantwort ist:
+
+\begin{lstlisting}[style=CStyle]
+zeros = [];
+poles = [-1/10 -1/600];
+gain = [10*0.5];
+sys = zpk(zeros, poles, gain, 'TimeUnit','milliseconds');
+
+step(sys)
+title('Sprungantwort der Uebertragungsfunktion')
+xlabel('Time') 
+ylabel('Umdrehungen / Minute') 
+\end{lstlisting}
+
+
+\begin{center}
+   \begin{minipage}[b]{0.9\textwidth}
+      \includegraphics[scale=0.7]{Bilder/Sprungantwort_Gegenkopplung.PNG}
+      \captionof{figure}{Phasenrand}
+      \label{fig:Sprungantwort_Gegenkopplung} 
+   \end{minipage}
+\end{center}
 
 
 \newpage

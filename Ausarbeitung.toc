@@ -8,5 +8,5 @@
 \contentsline {paragraph}{\nonumberline Aufgabe 3 - Bode-Diagramm}{5}{}%
 \contentsline {paragraph}{\nonumberline Aufgabe 5 - Einstellung Phasenrand}{6}{}%
 \contentsline {chapter}{\numberline {4}Abschnitt 4.2 - Simulation des Drehzahlregelkreises}{8}{}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{10}{}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{11}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
