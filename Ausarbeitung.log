@@ -1,0 +1,977 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.17)  18 OCT 2023 15:20
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Ausarbeitung.tex
+(Ausarbeitung.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-10-10>
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbook.cls
+Document Class: scrbook 2023/07/07 v3.41 KOMA-Script document class (book)
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.st
+y
+Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+))) (C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+))
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.st
+y
+Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip48
+\scr@dte@tocline@numbox=\box51
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 135.
+Class scrbook Info: File `scrsize10pt.clo' used to setup font sizes on input li
+ne 2691.
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize10pt
+.clo
+File: scrsize10pt.clo 2023/07/07 v3.41 KOMA-Script font size class option (10pt
+)
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.st
+y
+Package: typearea 2023/07/07 v3.41 KOMA-Script package (type area)
+\ta@bcor=\skip49
+\ta@div=\count185
+\ta@hblk=\skip50
+\ta@vblk=\skip51
+\ta@temp=\skip52
+\footheight=\skip53
+
+
+Package typearea Warning: Bad type area settings!
+(typearea)                The detected line width is about 34%
+(typearea)                larger than the heuristically estimated maximum
+(typearea)                limit of typographical good line width.
+(typearea)                You should e.g. decrease DIV, increase fontsize
+(typearea)                or change papersize.
+
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 15
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 478.00635pt
+(typearea)              DIV departure   = -34%
+(typearea)              \evensidemargin = -12.5192pt
+(typearea)              \oddsidemargin  = -12.5192pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 682.0pt
+(typearea)              \topmargin      = -48.93353pt
+(typearea)              \headheight     = 15.0pt
+(typearea)              \headsep        = 18.0pt
+(typearea)              \topskip        = 10.0pt
+(typearea)              \footskip       = 42.0pt
+(typearea)              \baselineskip   = 12.0pt
+(typearea)              on input line 1799.
+)
+\c@part=\count186
+\c@chapter=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\scr@dte@chapter@maxnumwidth=\skip54
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\chapter on input line 5990.
+\scr@dte@section@maxnumwidth=\skip55
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\section on input line 6001.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\section on input line 6001.
+\scr@dte@part@maxnumwidth=\skip56
+Class scrbook Info: using compatibility default `afterindent=true'
+(scrbook)           for `\part on input line 6010.
+\scr@dte@subsection@maxnumwidth=\skip57
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsection on input line 6020.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsection on input line 6020.
+\scr@dte@subsubsection@maxnumwidth=\skip58
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsubsection on input line 6030.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsubsection on input line 6030.
+\scr@dte@paragraph@maxnumwidth=\skip59
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\paragraph on input line 6041.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\paragraph on input line 6041.
+\scr@dte@subparagraph@maxnumwidth=\skip60
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subparagraph on input line 6051.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subparagraph on input line 6051.
+\abovecaptionskip=\skip61
+\belowcaptionskip=\skip62
+\c@pti@nb@sid@b@x=\box52
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 7242.
+\scr@dte@figure@maxnumwidth=\skip63
+\c@figure=\count193
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 7259.
+\scr@dte@table@maxnumwidth=\skip64
+\c@table=\count194
+Class scrbook Info: Redefining `\numberline' on input line 7430.
+\bibindent=\dimen140
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count195
+\calc@Bcount=\count196
+\calc@Adimen=\dimen141
+\calc@Bdimen=\dimen142
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count197
+\calc@Cskip=\skip67
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip68
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen143
+))
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen144
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count198
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count199
+\leftroot@=\count266
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count267
+\DOTSCASE@=\count268
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen145
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count269
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count270
+\dotsspace@=\muskip16
+\c@parentequation=\count271
+\dspbrk@lvl=\count272
+\tag@help=\toks19
+\row@=\count273
+\column@=\count274
+\maxfields@=\count275
+\andhelp@=\toks20
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
+\@envbody=\toks21
+\multlinegap=\skip69
+\multlinetaggap=\skip70
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+\g_MT_multlinerow_int=\count276
+\l_MT_multwidth_dim=\dimen152
+\origjot=\skip71
+\l_MT_shortvdotswithinadjustabove_dim=\dimen153
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen154
+\l_MT_above_intertext_sep=\dimen155
+\l_MT_below_intertext_sep=\dimen156
+\l_MT_above_shortintertext_sep=\dimen157
+\l_MT_below_shortintertext_sep=\dimen158
+\xmathstrut@box=\box55
+\xmathstrut@dim=\dimen159
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2023/09/29 v3.95 The Babel package
+\babel@savecnt=\count277
+\U@D=\dimen160
+\l@unhyphenated=\language79
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count278
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
+f
+Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthogra
+phy)
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.l
+df
+Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthogr
+aphy)
+Package babel Info: Making " an active character on input line 122.
+)))
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/de\babel
+-ngerman.tex
+Package babel Info: Importing font and identification data for ngerman
+(babel)             from babel-de.ini. Reported on input line 11.
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
+) (C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen163
+\captionmargin=\dimen164
+\caption@leftmargin=\dimen165
+\caption@rightmargin=\dimen166
+\caption@width=\dimen167
+\caption@indent=\dimen168
+\caption@parindent=\dimen169
+\caption@hangindent=\dimen170
+Package caption Info: KOMA-Script document class detected.
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-koma.st
+o
+File: caption-koma.sto 2023/09/08 v2.0e Adaption of the caption package to the 
+KOMA-Script document classes (AR)
+))
+\c@caption@flags=\count279
+\c@continuedfloat=\count280
+Package caption Info: KOMA-Script scrextend package detected.
+\caption@addmargin@hsize=\dimen171
+\caption@addmargin@linewidth=\dimen172
+) (C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip72
+\bibsep=\skip73
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count281
+) (C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.sty
+Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
+Package: todonotes 2023/01/31
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
+)
+\XKV@depth=\count282
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen173
+\pgfutil@tempdimb=\dimen174
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box56
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen175
+\pgf@y=\dimen176
+\pgf@xa=\dimen177
+\pgf@ya=\dimen178
+\pgf@xb=\dimen179
+\pgf@yb=\dimen180
+\pgf@xc=\dimen181
+\pgf@yc=\dimen182
+\pgf@xd=\dimen183
+\pgf@yd=\dimen184
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count283
+\c@pgf@countb=\count284
+\c@pgf@countc=\count285
+\c@pgf@countd=\count286
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count287
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count288
+\pgfsyssoftpath@bigbuffer@items=\count289
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen185
+\pgfmath@count=\count290
+\pgfmath@box=\box57
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count291
+))
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen186
+\pgf@picmaxx=\dimen187
+\pgf@picminy=\dimen188
+\pgf@picmaxy=\dimen189
+\pgf@pathminx=\dimen190
+\pgf@pathmaxx=\dimen191
+\pgf@pathminy=\dimen192
+\pgf@pathmaxy=\dimen193
+\pgf@xx=\dimen194
+\pgf@xy=\dimen195
+\pgf@yx=\dimen196
+\pgf@yy=\dimen197
+\pgf@zx=\dimen198
+\pgf@zy=\dimen199
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen256
+\pgf@path@lasty=\dimen257
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen258
+\pgf@shorten@start@additional=\dimen259
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count292
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen260
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen261
+\pgf@pt@y=\dimen262
+\pgf@pt@temp=\dimen263
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen264
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen265
+\pgf@sys@shading@range@num=\count293
+\pgf@shadingcount=\count294
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box61
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box62
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen266
+\pgf@nodesepend=\dimen267
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen268
+\pgffor@skip=\dimen269
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count295
+\pgfplotmarksize=\dimen270
+)
+\tikz@lastx=\dimen271
+\tikz@lasty=\dimen272
+\tikz@lastxsaved=\dimen273
+\tikz@lastysaved=\dimen274
+\tikz@lastmovetox=\dimen275
+\tikz@lastmovetoy=\dimen276
+\tikzleveldistance=\dimen277
+\tikzsiblingdistance=\dimen278
+\tikz@figbox=\box63
+\tikz@figbox@bg=\box64
+\tikz@tempbox=\box65
+\tikz@tempbox@bg=\box66
+\tikztreelevel=\count296
+\tikznumberofchildren=\count297
+\tikznumberofcurrentchild=\count298
+\tikz@fig@count=\count299
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count300
+\pgfmatrixcurrentcolumn=\count301
+\pgf@matrix@numberofcolumns=\count302
+)
+\tikz@expandcount=\count303
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+\c@@todonotes@numberoftodonotes=\count304
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count305
+\lst@gtempboxa=\box67
+\lst@token=\toks37
+\lst@length=\count306
+\lst@currlwidth=\dimen279
+\lst@column=\count307
+\lst@pos=\count308
+\lst@lostspace=\dimen280
+\lst@width=\dimen281
+\lst@newlines=\count309
+\lst@lineno=\count310
+\lst@maxwidth=\dimen282
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count311
+\lst@skipnumbers=\count312
+\lst@framebox=\box68
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2023/01/19 4.5a verbatim text (tvz,hv)
+\FV@CodeLineNo=\count313
+\FV@InFile=\read4
+\FV@TabBox=\box69
+\c@FancyVerbLine=\count314
+\FV@StepNumber=\count315
+\FV@OutFile=\write4
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2023-10-10 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count316
+\l__pdf_internal_box=\box70
+) (Ausarbeitung.aux)
+\openout1 = `Ausarbeitung.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count317
+\scratchdimen=\dimen283
+\scratchbox=\box71
+\nofMPsegments=\count318
+\nofMParguments=\count319
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen284
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
+\everyMPtoPDFconversion=\toks39
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 146.
+
+\c@lstlisting=\count323
+LaTeX Font Info:    Trying to load font information for U+msa on input line 165
+.
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 165
+.
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<Bilder/TitlePicture.png, id=4, 477.58424pt x 175.857pt>
+File: Bilder/TitlePicture.png Graphic file (type png)
+<use Bilder/TitlePicture.png>
+Package pdftex.def Info: Bilder/TitlePicture.png  used on input line 183.
+(pdftex.def)             Requested size: 382.0679pt x 140.68578pt.
+<Bilder/thab_logo.png, id=6, 583.781pt x 399.894pt>
+File: Bilder/thab_logo.png Graphic file (type png)
+<use Bilder/thab_logo.png>
+Package pdftex.def Info: Bilder/thab_logo.png  used on input line 200.
+(pdftex.def)             Requested size: 87.56337pt x 59.9815pt.
+
+[1
+
+
+{C:/Users/wolfg/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Bilder/Tit
+lePicture.png> <./Bilder/thab_logo.png>] (Ausarbeitung.toc)
+\tf@toc=\write5
+\openout5 = `Ausarbeitung.toc'.
+
+ [2
+
+
+]
+chapter 1.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              Implementation of \float@addtolist became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Since Version 3.12 support for deprecated
+(scrbook)              \float@addtolist interface has been
+(scrbook)              restricted to only some of the KOMA-Script
+(scrbook)              features and been removed from others.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@addtolist interface.
+
+[1]
+chapter 2.
+chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+
+Overfull \hbox (39.97131pt too wide) in paragraph at lines 316--319
+[]\OT1/cmr/m/n/10 Annahme 2: Wir ge-hen da-von aus, dass bei der []Uberf[]uhrun
+g der Dif-fe-ren-ti-al-glei-chung zur Laplace-[]Ubertragungsfunktion,
+ []
+
+
+Overfull \hbox (5.94011pt too wide) in paragraph at lines 340--343
+\OT1/cmr/m/n/10 zu fol-gen, wird die Dif-fe-ren-ti-al-glei-chung zun[]achst in 
+den Fre-quenz-be-reich []uberf[]uhrt um die []Ubertragungsfunktion
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+
+ []
+
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+)
+[3]
+<Bilder/Sprungantwort.PNG, id=39, 379.4175pt x 296.307pt>
+File: Bilder/Sprungantwort.PNG Graphic file (type png)
+<use Bilder/Sprungantwort.PNG>
+Package pdftex.def Info: Bilder/Sprungantwort.PNG  used on input line 432.
+(pdftex.def)             Requested size: 379.41656pt x 296.30627pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
+
+ []
+
+[4 <./Bilder/Sprungantwort.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
+72.
+(C:\Users\wolfg\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 472.
+<Bilder/Bodeplot.PNG, id=44, 663.6795pt x 293.898pt>
+File: Bilder/Bodeplot.PNG Graphic file (type png)
+<use Bilder/Bodeplot.PNG>
+Package pdftex.def Info: Bilder/Bodeplot.PNG  used on input line 478.
+(pdftex.def)             Requested size: 464.5725pt x 205.72717pt.
+<Bilder/Phasenrand.PNG, id=45, 667.89525pt x 299.31825pt>
+File: Bilder/Phasenrand.PNG Graphic file (type png)
+<use Bilder/Phasenrand.PNG>
+Package pdftex.def Info: Bilder/Phasenrand.PNG  used on input line 491.
+(pdftex.def)             Requested size: 467.52348pt x 209.52135pt.
+
+[5 <./Bilder/Bodeplot.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
+
+ []
+
+<Bilder/Phasenrand_70Grad.PNG, id=51, 387.24675pt x 307.74976pt>
+File: Bilder/Phasenrand_70Grad.PNG Graphic file (type png)
+<use Bilder/Phasenrand_70Grad.PNG>
+Package pdftex.def Info: Bilder/Phasenrand_70Grad.PNG  used on input line 545.
+(pdftex.def)             Requested size: 271.07086pt x 215.42336pt.
+[6 <./Bilder/Phasenrand.PNG>] [7 <./Bilder/Phasenrand_70Grad.PNG>]
+chapter 4.
+<Bilder/WirkungsplanDrehzahlregelkreis.PNG, id=60, 498.06075pt x 169.23225pt>
+File: Bilder/WirkungsplanDrehzahlregelkreis.PNG Graphic file (type png)
+<use Bilder/WirkungsplanDrehzahlregelkreis.PNG>
+Package pdftex.def Info: Bilder/WirkungsplanDrehzahlregelkreis.PNG  used on inp
+ut line 568.
+(pdftex.def)             Requested size: 348.64014pt x 118.46176pt.
+
+Overfull \hbox (61.83342pt too wide) in paragraph at lines 568--569
+[][] 
+ []
+
+<Bilder/GegenUndMitkopplung.PNG, id=61, 640.794pt x 322.20375pt>
+File: Bilder/GegenUndMitkopplung.PNG Graphic file (type png)
+<use Bilder/GegenUndMitkopplung.PNG>
+Package pdftex.def Info: Bilder/GegenUndMitkopplung.PNG  used on input line 579
+.
+(pdftex.def)             Requested size: 448.55273pt x 225.54108pt.
+
+Overfull \hbox (18.34995pt too wide) in paragraph at lines 579--580
+[][] 
+ []
+
+[8 <./Bilder/WirkungsplanDrehzahlregelkreis.PNG> <./Bilder/GegenUndMitkopplung.
+PNG>]
+Overfull \hbox (13.16788pt too wide) in paragraph at lines 599--602
+[]\OT1/cmr/m/n/10 Dagegen enth[]alt der Wir-kungs-plan aus dem Auf-ga-ben-blatt
+ (s. Ab-bil-dung 4.1[]) je-doch zwei Block im Vorw[]artszweig,
+ []
+
+[9]
+chapter 5.
+(Ausarbeitung.bbl [10]) [11
+
+
+] (Ausarbeitung.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-10-10>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 22473 strings out of 474823
+ 449972 string characters out of 5750955
+ 1963043 words of memory out of 5000000
+ 44088 multiletter control sequences out of 15000+600000
+ 564049 words of font info for 59 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 108i,9n,107p,10909b,1276s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\wolfg\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+0800.pk> <C:\Users\wolfg\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1000.pk><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/wolfg/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/wolfg/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/wolfg/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/wo
+lfg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
+Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.p
+fb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr7.pfb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr8.pfb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsl10.pfb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/wolfg/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/wolfg/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/wolfg/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/wolfg/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Ausarbeitung.pdf (13 pages, 469986 bytes).
+PDF statistics:
+ 156 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+

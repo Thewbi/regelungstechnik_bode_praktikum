@@ -314,7 +314,7 @@ Annahme 1: Frequenzgangfunktion und Übertragungsfunktion sind Synonyme.
 Grund: \cite{versuchssanleitung} Seite 10. Hinweise: ``tf (...) definiert eine Übertragungs- bzw. Frequenzgangfunktion''
 
 Annahme 2: Wir gehen davon aus, dass bei der Überführung der Differentialgleichung zur Laplace-Übertragungsfunktion, die Terme mit den Anfangswerten entfallen.
-Grund: \cite{Skript_Signalverarbeitung} Seite 41. ``Da man in der Regelungstechnik meist davon ausgeht, dass sich die betrachteten Systeme für $t < 0$ 
+Grund: \cite{Skript_Regelungstechnik} Seite 41. ``Da man in der Regelungstechnik meist davon ausgeht, dass sich die betrachteten Systeme für $t < 0$ 
 in Nullage befinden [...] verschwinden die Terme mit den Anfangswerten''.
 
 Zur Lösung dieser Aufgabe verwenden wir die gegebene Differentialgleichung.
@@ -327,11 +327,21 @@ mit den gegebenen Werten
 
 $T_1=600 ms; T_2 = 10 ms; K_s = 0,5$
 
+Es handelt sich hier um ein allgemeines $PT_{2}$ Glied siehe \cite{Skript_Regelungstechnik} Seite 68.
+
+Die Übertragungsfunktion wird durch Gleichung 6.6 in \cite{Skript_Regelungstechnik} Seite 69 angegeben als 
+
+\begin{equation}
+G(s) = \frac{K}{1 + (T_1 + T_2)s + T_1 T_2*s^2}
+\end{equation}
+
+Diese Funktion soll nun hergeleitet werden.
+
 Da es am einfachsten erscheint dem Vorgehen aus den Übungsaufgaben zur Untersuchung des Pohl'schen Rads zu folgen,
 wird die Differentialgleichung zunächst in den Frequenzbereich überführt um die Übertragungsfunktion bilden zu können.
 Diese Übertragungsfunktion lässt sich dann außerdem auch mittels der tf() Funktion in Matlab weiterverwenden.
 
-Der Differentiationssatz der Laplace-Transformation (\cite{Skript_Signalverarbeitung} Seite 40) wird verwendet um die Differentialgleichung in eine
+Der Differentiationssatz der Laplace-Transformation (\cite{Skript_Regelungstechnik} Seite 40) wird verwendet um die Differentialgleichung in eine
 Übertragungsfunktion im Frequenzbereich zu überführen.
 
 \begin{equation}
@@ -357,14 +367,32 @@ x_a(s) * (T_1*T_2*s^2 + (T_1 + T_2)*s + 1 ) = K_s * x_e(s)
 Die Übertragungsfunktion wird durch Umformung ermittelt:
 
 \begin{equation}
-G(s) = \frac{x_e(s)}{x_a(s)} = \frac{K_s}{T_1*T_2*s^2 + (T_1 + T_2)*s + 1}
+G(s) = \frac{x_a(s)}{x_e(s)} = \frac{K_s}{T_1*T_2*s^2 + (T_1 + T_2)*s + 1}
 \end{equation}
 
 Die Parameter werden durch die vorgegebenen Werte ersetzt. 
 
 \begin{equation}
-G(s) = \frac{x_e(s)}{x_a(s)} = \frac{0,5}{600*10*s^2 + (600 + 10)*s + 1} = 0,5*\frac{1}{6000*s^2 + 610*s + 1}
+G(s) = \frac{x_a(s)}{x_e(s)} = \frac{0,5}{600*10*s^2 + (600 + 10)*s + 1} = 0,5*\frac{1}{6000*s^2 + 610*s + 1}
 \end{equation}
+
+
+
+
+
+
+
+%%
+%% Aufgabe 2 - Reaktion auf Stellgrößensprung
+%%
+
+\paragraph{Aufgabe 2 - Reaktion auf Stellgrößensprung}~\\
+
+In der zweiten Aufgabe soll ein Stellgrößensprung um 1V simuliert und die Reaktion der Strecke dokumentiert werden.
+Zur Simulation wird Matlab verwendet, welches die Funktion ``step()'' anbietet, mit der eine Sprungfunktion erzeugt wird.
+
+Zunächst wird die Übertragungsfunktion anhand ihrer Pole, Nullstellen und dem Verstärkungswert beschrieben, da diese Angaben in
+Matlab verwendet werden können.
 
 Der Nenner ist ein Polynom mit Grad 2. Um die Nullstellen zu finden wird mit 0 gleichgesetzt und die quadratische Gleichung gelöst.
 Mit der symbolic toolbox im Matlab:
@@ -383,20 +411,7 @@ G(s) = \frac{x_e(s)}{x_a(s)} = 0,5*\frac{1}{(s + \frac{1}{10})(s + \frac{1}{600}
 
 Damit kann die Übertragungsfunktion per zpk() in Matlab eingegeben werden.
 
-
-
-
-
-%%
-%% Aufgabe 2 - Reaktion auf Stellgrößensprung
-%%
-
-\paragraph{Aufgabe 2 - Reaktion auf Stellgrößensprung}~\\
-
-In der zweiten Aufgabe soll ein Stellgrößensprung um 1V simuliert und die Reaktion der Strecke dokumentiert werden.
-Zur Simulation wird Matlab verwendet, welches die Funktion ``step()'' anbietet, mit der eine Sprungfunktion erzeugt wird.
-
-Zunächst wird die Übertragungsfunktion in Matlab eingegeben.
+Die Übertragungsfunktion wird in Matlab eingegeben.
 
 \begin{lstlisting}[style=CStyle]
 zeros = [];
@@ -410,7 +425,7 @@ xlabel('Time')
 ylabel('Umdrehungen / Minute') 
 \end{lstlisting}
 
-Es ergibt sich die folgende Sprungantwort:
+Es ergibt sich die Sprungantwort in \ref{fig:Sprungantwort}:
 
 \begin{center}
    \begin{minipage}[b]{0.8\textwidth}
@@ -437,7 +452,7 @@ Aus der Sprungantwort wird der Endwert 3000 Umdrehunge pro Minute entnommen.
 10 \% (300 Umdrehungen pro Minute) sind nach ca. 100 Millisekunden erreicht.
 90 \% (2700 Umdrehungen pro Minute) sind nach ca. 1500 Millisekunden erreicht.
 
-
+Die Differenz entspricht der Anstiegszeit. Sie beträgt 1400 Millisekunden.
 
 
 
@@ -454,7 +469,7 @@ bode(sys)
 grid on
 \end{lstlisting}
 
-Matlab wählt die auszuwertenden Frequenzen automatisch aus. Eine manuelle Erweiterung der Grenzen (bode(sys, {0.0001, 1000}))
+Matlab wählt die auszuwertenden Frequenzen automatisch aus. Eine manuelle Erweiterung der Grenzen (bode(sys, \{0.0001, 1000\}))
 hat ergeben, dass außerhalb der von Matlab automatisch gewählten Grenzen keine signifikaten Änderungen mehr stattgefunden haben
 und es wurden daher die von Matlab gewählten Grenzen beibehalten.
 
@@ -481,7 +496,7 @@ Bei dieser Frequenz beträgt der Phasenrand $-172^{\circ} - -180^{\circ} = 8^{\c
 
 Um das Bode-Diagramm manuell zu zeichnen beginnt man mit dem Amplitudengang.
 Es werden einige Frequenzen ausgewählt, da der Zeitaufwand bei der manuellen Berechnung schnell zu hoch wird.
-Gewählt werden die Frequenzen $10^-3, 10^-2, 10^-1, 10^0 und 10^1$
+Gewählt werden die Frequenzen $10^{-3}$, $10^{-2}$, $10^{-1}$, $10^{0}$ und $10^{1}$
 
 Diese Werte werden in die Übertragungsfunktion eingesetzt. Aus den Ergebnissen wird dann der Dezibel-Wert gebildet.
 
@@ -490,24 +505,116 @@ Diese Werte werden in die Übertragungsfunktion eingesetzt. Aus den Ergebnissen 
  \hline
  Frequenz & G(s) & log(G(s)) & dB = 20*log(G(s)) \\ [0.5ex] 
  \hline
- $10^-3$ & 1856,44 & 3,269 & 65,37 \\
+ $10^{-3}$ & 1856,44 & 3,269 & 65,37 \\
  \hline
- $10^-2$ & 389,61 & 2,59 & 51,81 \\
+ $10^{-2}$ & 389,61 & 2,59 & 51,81 \\
  \hline
- $10^-1$ & 24,59 & 1,39 & 27,82 \\
+ $10^{-1}$ & 24,59 & 1,39 & 27,82 \\
  \hline
- $10^0$ & 0,45 & -0.34 & -6.86 \\
+ $10^{0}$ & 0,45 & -0.34 & -6.86 \\
  \hline
- $10^1$ & $4.94*10^-3$ & -2.31 & -46,11 \\
+ $10^{1}$ & $4.94*10^-3$ & -2.31 & -46,11 \\
  \hline
 \end{tabular}
+\end{center}
+
+TODO: Phasengang
+
+
+
+
+%%
+%% Aufgabe 5 - Phasenrand von 70 Grad
+%%
+
+\paragraph{Aufgabe 5 - Einstellung Phasenrand}~\\
+
+Ein Phasenrand von 70 Grad soll eingestellt werden.
+Der Phasenrand wird im Phasendiagram des Bode-Diagramms an der Stelle abgelesen, an der die Amplitude den Wert 0 annimmt.
+Der Phasenrand wird gebildert, indem die Differenz im Phase-Diagramm zwischen dem Kurvenwert und der -180 Grad Linie gebildet wird.
+
+Es ergibt sich aus der Rechnung $70 = x - -180 <=> x = 70 - 180 = -110$ eine Phasenverschiebung von -110 Grad.
+
+Durch Wahl einer Verstärkung K kann die Amplituden-Linie vertikal verschoben werden ohne die Phasen-Linie zu beeinflussen.
+Es wird eine Verstärkung K = 0.005 gewählt.
+
+Mit einer Verstärkung von K = 0.005 ergibt sich das Bode-Diagramm \ref{fig:Phasenrand_70Grad}, in dem ein Phasenrand von 70 Grad erreicht ist.
+
+\begin{center}
+   \begin{minipage}[b]{0.6\textwidth}
+      \includegraphics[scale=0.7]{Bilder/Phasenrand_70Grad.PNG}
+      \captionof{figure}{Phasenrand}
+      \label{fig:Phasenrand_70Grad} 
+   \end{minipage}
 \end{center}
 
 
 
 
 
-%\newpage
+\newpage
+{\let\clearpage\relax \chapter{Abschnitt 4.2 - Simulation des Drehzahlregelkreises}} \label{chpt:SimulationRevolutionControlLoop}
+
+Zunächst wird erklärt, wie die Formel
+
+\begin{equation}
+F(j\omega) = \frac{F_r(j\omega)F_s(j\omega)}{1 + F_r(j\omega)F_s(j\omega)}
+\end{equation}
+
+zustande kommt. Gegeben ist der Wirkungsplan in \ref{fig:WirkungsplanDrehzahlregelkreis}.
+
+\begin{center}
+   \begin{minipage}[b]{0.6\textwidth}
+      \includegraphics[scale=0.7]{Bilder/WirkungsplanDrehzahlregelkreis.PNG}
+      \captionof{figure}{Phasenrand}
+      \label{fig:WirkungsplanDrehzahlregelkreis} 
+   \end{minipage}
+\end{center}
+
+Ein Vergleich mit \cite{Skript_Regelungstechnik} Seite 52 zeigt, dass es sich hier um eine Gegenkopplung handelt, da die Rückführung mit einem negative Vorzeichen an 
+den Eingang angelegt wird. 
+
+\begin{center}
+   \begin{minipage}[b]{0.9\textwidth}
+      \includegraphics[scale=0.7]{Bilder/GegenUndMitkopplung.PNG}
+      \captionof{figure}{Phasenrand}
+      \label{fig:GegenUndMitkopplung} 
+   \end{minipage}
+\end{center}
+
+In \ref{fig:GegenUndMitkopplung}, welche auch \cite{Skript_Regelungstechnik} entnommen ist, wird eine Zusammenfassung der Gegenkopplung in einen einzigen
+Block angegeben. Dieser Block wird Formelmäßig durch 
+
+\begin{equation}
+F(j\omega) = \frac{G_v(j\omega)}{1 + G_v(j\omega)G_r(j\omega)}
+\end{equation}
+
+beschrieben. Um den Wirkungsplan aus der Aufgabe also mit dieser Ersatzformel in Einklang zu bringen, muss $G_r(j\omega)$ als Einheitsfunktion angenommen werden, da
+der Wirkungsplan keinen Block im Rückführungszweig enthält.
+
+\begin{equation}
+G_r(j\omega) = 1
+\end{equation}
+
+Dagegen enthält der Wirkungsplan aus dem Aufgabenblatt (s. Abbildung \ref{fig:WirkungsplanDrehzahlregelkreis}) jedoch zwei Block im Vorwärtszweig, 
+nämlich $F_r(j\omega)$ und $F_s(j\omega)$. Diese beiden Blöcke müssen zusammengefasst werden, damit die Formel $F(j\omega) = \frac{G_v(j\omega)}{1 + G_v(j\omega)G_r(j\omega)}$
+angewendet werden kann.
+
+Die Regeln der Zusammenfassung sind in \cite{Skript_Regelungstechnik} definiert. Auf Seite 52 wird beschrieben, dass eine Reihenschaltung durch Multiplikation der beiden Blöcke
+zu einem Block zusammengefasst werden kann. Es gilt damit:
+
+\begin{equation}
+G_v(j\omega) = F_r(j\omega)F_s(j\omega)
+\end{equation}
+
+Es folgt nun die Bestimmung des Ersatzblocks aus allen obigen Angaben. Dazu werden $G_v(j\omega)$ und $G_r(j\omega)$ eingesetzt.	
+
+\begin{equation}
+F(j\omega) = \frac{G_v(j\omega)}{1 + G_v(j\omega)G_r(j\omega)} = \frac{F_r(j\omega)F_s(j\omega)}{1 + F_r(j\omega)F_s(j\omega) * 1} = \frac{F_r(j\omega)F_s(j\omega)}{1 + F_r(j\omega)F_s(j\omega)}
+\end{equation}
+
+
+\newpage
 {\let\clearpage\relax \chapter{Zusammenfassung und Ausblick}} \label{chpt:Conclusion}
 
 Brauchen wir dieses Kapitel?

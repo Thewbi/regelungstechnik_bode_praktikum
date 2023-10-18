@@ -1,0 +1,12 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{}%
+\contentsline {chapter}{\numberline {2}Theoretische Grundlagen}{2}{}%
+\contentsline {chapter}{\numberline {3}Aufgaben zur Vorbereitung des Praktikum}{2}{}%
+\contentsline {paragraph}{\nonumberline Aufgabe 1 - Übertragungsfunktion}{2}{}%
+\contentsline {paragraph}{\nonumberline Aufgabe 2 - Reaktion auf Stellgrößensprung}{3}{}%
+\contentsline {paragraph}{\nonumberline Aufgabe 3 - Anstiegszeit}{4}{}%
+\contentsline {paragraph}{\nonumberline Aufgabe 3 - Bode-Diagramm}{5}{}%
+\contentsline {paragraph}{\nonumberline Aufgabe 5 - Einstellung Phasenrand}{6}{}%
+\contentsline {chapter}{\numberline {4}Abschnitt 4.2 - Simulation des Drehzahlregelkreises}{8}{}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{10}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,0 +1,89 @@
+
+
+
+
+
+numerator = 0.5;
+denominator = [6000, 610, 1];
+sys = tf(numerator, denominator)
+
+bode(sys)
+grid on
+
+
+
+
+
+zeros=[];
+poles=[-1/10 -1/600];
+gain=[0.5];
+sys=zpk(zeros,poles,gain,'TimeUnit','milliseconds');
+
+step(sys)
+
+title('Sprungantwort der Uebertragungsfunktion')
+xlabel('Time')
+ylabel('Umdrehungen/Minute')
+
+figure
+bode(sys)
+grid on
+
+
+
+
+
+	zeros=[];
+	poles=[-1/10 -1/600];
+	gain=[0.001];
+	sys=zpk(zeros,poles,gain,'TimeUnit','milliseconds');
+
+	figure
+	bode(sys)
+	grid on
+
+
+
+
+
+zeros=[];
+poles=[1/10 1/600];
+%gain=[0.5];
+gain=[0.00001];
+sys=zpk(zeros,poles,gain,'TimeUnit','milliseconds');
+
+figure
+bode(sys)
+grid on
+
+
+
+
+
+
+zeros=[];
+poles=[-0.1 -0.0016];
+%gain=[100];
+gain=[0.00001];
+sys=zpk(zeros,poles,gain,'TimeUnit','milliseconds');
+
+figure
+bode(sys)
+grid on
+
+
+
+
+
+
+
+zeros=[];
+poles=[-2 -2 -2];
+%gain=[8];
+%gain=[1];
+gain=[16];
+sys=zpk(zeros,poles,gain,'TimeUnit','milliseconds');
+
+figure
+bode(sys)
+grid on
