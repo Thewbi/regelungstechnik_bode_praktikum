@@ -460,7 +460,7 @@ Die Differenz entspricht der Anstiegszeit. Sie beträgt 1400 Millisekunden.
 %% Aufgabe 4 - Bode-Diagramm
 %%
 
-\paragraph{Aufgabe 3 - Bode-Diagramm}~\\
+\paragraph{Aufgabe 4 - Bode-Diagramm}~\\
 
 Zeichnen Sie das Bode-Diagramm der Strecke.
 
@@ -520,6 +520,56 @@ Diese Werte werden in die Übertragungsfunktion eingesetzt. Aus den Ergebnissen 
 
 TODO: Phasengang
 
+
+%%
+%% Aufgabe 4 - Bode-Diagramm (Alternative)
+%%
+
+\paragraph{Aufgabe 4 - Bode-Diagramm (Alternative)}~\\
+
+Alternativ gibt es in Matlab die Möglichkeit eine Übertragungsfunktion mit tf() direkt aus den Parametern der Polynome einzutragen.
+
+Aus 
+
+\begin{equation}
+G(s) = 0,5*\frac{1}{6000*s^2 + 610*s + 1}
+\end{equation}
+
+wird die Eingabe
+
+\begin{lstlisting}[style=CStyle]
+%numerator = 25.0;
+numerator = 0.5;
+denominator = [6000, 610, 1];
+sys = tf(numerator, denominator, 'TimeUnit', 'milliseconds')
+
+figure
+step(sys)
+
+figure
+bode(sys)
+grid on
+\end{lstlisting}
+
+Damit ergeben sich die Sprungantwort (im Zeitbereich ???) und das Bode-Diagram:
+
+\begin{center}
+   \begin{minipage}[b]{1.0\textwidth}
+      \includegraphics[scale=0.6]{Bilder/StepFunctionBode_Alternative.PNG}
+      \captionof{figure}{Alternative Möglichkeit der Sprungantwort}
+      \label{fig:StepFunctionBode_Alternative} 
+   \end{minipage}
+\end{center}
+
+Mit einer Verstärkung von 25,0 ergibt sich ein Phaserand von 70 Grad.
+
+\begin{center}
+   \begin{minipage}[b]{1.0\textwidth}
+      \includegraphics[scale=0.6]{Bilder/StepFunctionBode_Alternative_70Phasenrand.PNG}
+      \captionof{figure}{Alternative Möglichkeit der Sprungantwort, Phasenrand 70 Grad}
+      \label{fig:StepFunctionBode_Alternative_70Phasenrand} 
+   \end{minipage}
+\end{center}
 
 
 
@@ -626,13 +676,13 @@ G(j\omega) = \frac{F_r(j\omega)F_s(j\omega)}{1 + F_r(j\omega)F_s(j\omega)} = \fr
 Durch Ausklammer der beiden Verstärkungen $K_{p}$ und $K_{s}$ ergibt sich
 
 \begin{equation}
-G(j\omega) = \frac{K_{p}K_{s}}{(T_{1}j\omega + 1)(T_{2}j\omega + 1) + K_{p}K_{s}} = K_{p}K_{s}(\frac{1}{(T_{1}j\omega + 1)(T_{2}j\omega + 1) + 1})
+G(j\omega) = \frac{K_{p}K_{s}}{(T_{1}j\omega + 1)(T_{2}j\omega + 1) + K_{p}K_{s}} = K_{p}K_{s}\frac{1}{(T_{1}j\omega + 1)(T_{2}j\omega + 1) + 1}
 \end{equation}
 
 Wird der Nenner auf Nullstellen untersucht, ergeben sich die Nullstellen $-\frac{1}{10}$ und $-\frac{1}{600}$. Der Nenner wird faktorisiert in
 
 \begin{equation}
-G(j\omega) = K_{p}K_{s}( \frac{1}{(j\omega + \frac{1}{10})(j\omega + \frac{1}{600})} )
+G(j\omega) = K_{p}K_{s}\frac{1}{(j\omega + \frac{1}{10})(j\omega + \frac{1}{600})}
 \end{equation}
 
 Es handelt sich prinzipiell um die gleiche Übertragungsfunktion wie zuvor bis auf den Unterschied, dass der proportionale P-Regler seine Verstärkung $K_{p}$ beiträgt,
@@ -660,6 +710,57 @@ ylabel('Umdrehungen / Minute')
       \label{fig:Sprungantwort_Gegenkopplung} 
    \end{minipage}
 \end{center}
+
+
+
+
+
+\newpage
+{\let\clearpage\relax \chapter{Methode: Betragsoptimum}} \label{chpt:Betragsoptimum}
+
+Das Betragsoptimum ist eine Methode um einen PI oder einen PID Regler einzustellen.
+Dabei erreicht das Betragsoptimumverfahren laut \cite{philippsen2004einstieg} ein vergleichsweiße schnelles Regelverhalten sowie gutes Führungs und Störverhalten.
+Das Ergebnis des Betragsoptimums ist eine Übertragungsfunktion, bei der der Betrag des Frequenzgangs des geschlossenen Kreises möglichst lange den Wert eins annimmt.
+$\bigl|G_{w}(j\omega)\bigl| \approx 1$
+Daraus ergeben sich die oben genannten positiven Eigenschaften.
+
+Laut \cite{Skript_Regelungstechnik} führt das Betragsoptimum zu einer hohen Bandbreite des Reglers und zu einem schnellen Einschwingverhalten und zu einer guten
+Dämpfung.
+
+Das Betragsoptimum kann für PI und PID Regler eingesetzt werden und unterscheidet sich zwischen den Reglertypen. Das Betragsoptimumsverfahren kann anhand eines Bode-Diagramms
+ausgeführt werden oder anhand von mathematischen Berechnungen auf unterschiedlichste Art und Weiße (siehe auch \cite{antriebsregelungstechnik} 
+und \cite{schulz2004regelungstechnik}). Zusammenfassend lässt sich sagen, dass das Betragsoptimum nicht einem einfachen Kochrezept folgt, 
+sondern auf jede Strecke und auf jeden Regler einzeln angewandt werden muss.
+
+In diesem Abschnitt wird das Betragsoptimum für den PI-Regler angewendet und die Vorgehensweiße schließt das Ablesen von Werten aus einem Bode-Diagramm mit ein. 
+Im speziellen wird den Vorgaben aus \cite{Skript_Regelungstechnik} Seite 95 ff. gefolgt mit ergänzenden Handlungshinweisen aus \cite{versuchssanleitung}.
+
+Hier wird der Fall einer dominanten Zeitkonstante $T_{1}$ und einer oder mehreren kleinen Zeitkonstanten, die zu einer Summenzeitkonstanten
+zusammengefasst werden $T_{2}, T_{3}, \ldots = T_{\Sigma}$, behandelt. Die dominanten Zeitkonstante wird aus dem Bodediagramm an der -3db Eckfrequenz $f_{1}$ aus dem 
+Bode-Diagramm abgelesen. Diese Frequenz $f_{1}$ wird anhand Formel $T_{1} = \frac{1}{2 \pi f_{1}}$ in den Wert $T_{1}$ umgerechnet. $T_{1}$ wird dann als Wert $T_{N}$ verwendet.
+$T_{N} = T_{1}$. $T_{N}$ ist die Nachstellzeit und damit einer der Parameter, die in die allgemeine Formel eines PID Reglers eingesetzt werden muss.
+
+Der zweite benötigter Parameter in der PID-Gleichung für einen PI-Regler ist $K_{p}$. $K_{p}$ wird berechnet mit $K_{p} = \frac{T_{1}}{2 T_{2} K_{s}}$. 
+$T_{2}$ und $K_{s}$ sind in der Versuchsanleitung \cite{versuchssanleitung} gegeben: $T_{2} = 4ms$ und $K_{s} = 0.5$.
+
+Ich denke der Wert $K_{p}$ wird über seine Formel so gewählt, dass er die dominante Zeitkonstante kompensiert, wenn der Regelkreis mit dem PI-Regler und der Strecke
+zusammengesetzt wird. Eventuell führt die Kompensation der dominanten Zeitkonstante zu einem schnellen Einschwingerhalten.
+
+%% Dies ist relevant, da sich das Verfahren zwischen PI und PID Reglern unterscheidet.
+%% 
+%% Das Verfahren kann eingesetzt werden, wenn die Übertragungsfunktion im Laplace-transformiert ist und folgendes Aussehen hat:
+%% 
+%% \begin{equation}
+%% G(s) = \frac{1}{\ldots + a_{3}s^{3} + a_{2}s^{2} + a_{1}s + a_{0}}
+%% \end{equation}
+%% 
+%% Die Streckenkoeffizienten müssen bekannt sein.
+%% 
+%% Da unsere Funktion im Zähler keinen Wert von 1 besitzt, wird die Übertragungsfunktion zunächst umgerechnet.
+%% 
+%% \begin{equation}
+%% G(s) = 0,5*\frac{1}{6000*s^2 + 610*s + 1} = \frac{1}{12000*s^2 + 1220*s + 2}
+%% \end{equation}
 
 
 \newpage

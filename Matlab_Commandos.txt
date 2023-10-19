@@ -1,12 +1,22 @@
-
-
-
-
-
+%numerator = 25.0;
+%numerator = 20.0;
+%numerator = 18.0;
+%numerator = 10.0;
+%numerator = 2.0;
+%numerator = 1.5;
+%numerator = 1.25;
+%numerator = 1.1;
+%numerator = 1.005;
+%numerator = 1.0;
 numerator = 0.5;
+%numerator = 0.005;
 denominator = [6000, 610, 1];
-sys = tf(numerator, denominator)
+sys = tf(numerator, denominator, 'TimeUnit', 'milliseconds')
 
+figure
+step(sys)
+
+figure
 bode(sys)
 grid on
 
@@ -33,14 +43,18 @@ grid on
 
 
 
-	zeros=[];
-	poles=[-1/10 -1/600];
-	gain=[0.001];
-	sys=zpk(zeros,poles,gain,'TimeUnit','milliseconds');
+zeros=[];
+poles=[-1/10 -1/600];
+%gain=[0.005];
+gain=[0.5];
+sys=zpk(zeros, poles, gain, 'TimeUnit', 'milliseconds');
 
-	figure
-	bode(sys)
-	grid on
+figure
+step(sys)
+
+figure
+bode(sys)
+grid on
 
 
 
@@ -48,9 +62,12 @@ grid on
 
 zeros=[];
 poles=[1/10 1/600];
-%gain=[0.5];
-gain=[0.00001];
+gain=[0.5];
+%gain=[0.00001];
 sys=zpk(zeros,poles,gain,'TimeUnit','milliseconds');
+
+figure
+step(sys)
 
 figure
 bode(sys)
@@ -87,3 +104,37 @@ sys=zpk(zeros,poles,gain,'TimeUnit','milliseconds');
 figure
 bode(sys)
 grid on
+
+
+
+syms x;
+eqn = 600*10*x^2 + 610*x + 1
+solve(eqn)
+
+
+
+= Draw f(x) = x in the range [0, 2] =
+x = 0:.01:2;
+y1 = x;
+plot(x, y1);
+
+
+X = -2:0.5:10;
+Y = exp(X/2);
+plot(X,Y)
+
+
+
+
+== Versuch einer inversen Laplace Transformation ==
+Gegeben eine Partialbruchzerlegung anhand der beiden Pole -1/10 und -1/600
+wird eine Rücktransformation in den Zeitbereich anhand der Tabelle auf Seite 43 versucht
+
+x = 0:.01:5;
+y1 = 0.5 * exp(1/10 * x) * exp(1/600 * x);
+plot(x, y1);
+
+X = -2:0.5:10;
+Y = 0.5 * exp(1/10 * X) .* exp(1/600 * X);
+plot(X,Y)
+

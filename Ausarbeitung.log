@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.17)  18 OCT 2023 16:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.17)  19 OCT 2023 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -807,7 +807,7 @@ lePicture.png> <./Bilder/thab_logo.png>] (Ausarbeitung.toc)
  [2
 
 
-]
+] [3]
 chapter 1.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -856,7 +856,7 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
 [3]
-<Bilder/Sprungantwort.PNG, id=39, 379.4175pt x 296.307pt>
+<Bilder/Sprungantwort.PNG, id=42, 379.4175pt x 296.307pt>
 File: Bilder/Sprungantwort.PNG Graphic file (type png)
 <use Bilder/Sprungantwort.PNG>
 Package pdftex.def Info: Bilder/Sprungantwort.PNG  used on input line 432.
@@ -878,68 +878,104 @@ File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 472.
-<Bilder/Bodeplot.PNG, id=44, 663.6795pt x 293.898pt>
+<Bilder/Bodeplot.PNG, id=48, 663.6795pt x 293.898pt>
 File: Bilder/Bodeplot.PNG Graphic file (type png)
 <use Bilder/Bodeplot.PNG>
 Package pdftex.def Info: Bilder/Bodeplot.PNG  used on input line 478.
 (pdftex.def)             Requested size: 464.5725pt x 205.72717pt.
-<Bilder/Phasenrand.PNG, id=45, 667.89525pt x 299.31825pt>
+<Bilder/Phasenrand.PNG, id=49, 667.89525pt x 299.31825pt>
 File: Bilder/Phasenrand.PNG Graphic file (type png)
 <use Bilder/Phasenrand.PNG>
 Package pdftex.def Info: Bilder/Phasenrand.PNG  used on input line 491.
 (pdftex.def)             Requested size: 467.52348pt x 209.52135pt.
 
 [5 <./Bilder/Bodeplot.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 530--531
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
 
  []
 
-<Bilder/Phasenrand_70Grad.PNG, id=51, 387.24675pt x 307.74976pt>
+[6 <./Bilder/Phasenrand.PNG>]
+<Bilder/StepFunctionBode_Alternative.PNG, id=58, 786.5385pt x 299.31825pt>
+File: Bilder/StepFunctionBode_Alternative.PNG Graphic file (type png)
+<use Bilder/StepFunctionBode_Alternative.PNG>
+Package pdftex.def Info: Bilder/StepFunctionBode_Alternative.PNG  used on input
+ line 558.
+(pdftex.def)             Requested size: 471.92674pt x 179.59233pt.
+<Bilder/StepFunctionBode_Alternative_70Phasenrand.PNG, id=59, 797.98125pt x 303
+.534pt>
+File: Bilder/StepFunctionBode_Alternative_70Phasenrand.PNG Graphic file (type p
+ng)
+<use Bilder/StepFunctionBode_Alternative_70Phasenrand.PNG>
+Package pdftex.def Info: Bilder/StepFunctionBode_Alternative_70Phasenrand.PNG  
+used on input line 568.
+(pdftex.def)             Requested size: 478.79243pt x 182.1218pt.
+
+Overfull \hbox (0.78609pt too wide) in paragraph at lines 568--569
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
+
+ []
+
+[7 <./Bilder/StepFunctionBode_Alternative.PNG> <./Bilder/StepFunctionBode_Alter
+native_70Phasenrand.PNG>]
+<Bilder/Phasenrand_70Grad.PNG, id=65, 387.24675pt x 307.74976pt>
 File: Bilder/Phasenrand_70Grad.PNG Graphic file (type png)
 <use Bilder/Phasenrand_70Grad.PNG>
-Package pdftex.def Info: Bilder/Phasenrand_70Grad.PNG  used on input line 545.
+Package pdftex.def Info: Bilder/Phasenrand_70Grad.PNG  used on input line 595.
 (pdftex.def)             Requested size: 271.07086pt x 215.42336pt.
-[6 <./Bilder/Phasenrand.PNG>] [7 <./Bilder/Phasenrand_70Grad.PNG>]
+ [8 <./Bilder/Phasenrand_70Grad.PNG>]
 chapter 4.
-<Bilder/WirkungsplanDrehzahlregelkreis.PNG, id=60, 498.06075pt x 169.23225pt>
+<Bilder/WirkungsplanDrehzahlregelkreis.PNG, id=70, 498.06075pt x 169.23225pt>
 File: Bilder/WirkungsplanDrehzahlregelkreis.PNG Graphic file (type png)
 <use Bilder/WirkungsplanDrehzahlregelkreis.PNG>
 Package pdftex.def Info: Bilder/WirkungsplanDrehzahlregelkreis.PNG  used on inp
-ut line 568.
+ut line 618.
 (pdftex.def)             Requested size: 348.64014pt x 118.46176pt.
 
-Overfull \hbox (61.83342pt too wide) in paragraph at lines 568--569
+Overfull \hbox (61.83342pt too wide) in paragraph at lines 618--619
 [][] 
  []
 
-<Bilder/GegenUndMitkopplung.PNG, id=61, 640.794pt x 322.20375pt>
+<Bilder/GegenUndMitkopplung.PNG, id=71, 640.794pt x 322.20375pt>
 File: Bilder/GegenUndMitkopplung.PNG Graphic file (type png)
 <use Bilder/GegenUndMitkopplung.PNG>
-Package pdftex.def Info: Bilder/GegenUndMitkopplung.PNG  used on input line 579
+Package pdftex.def Info: Bilder/GegenUndMitkopplung.PNG  used on input line 629
 .
 (pdftex.def)             Requested size: 448.55273pt x 225.54108pt.
 
-Overfull \hbox (18.34995pt too wide) in paragraph at lines 579--580
+Overfull \hbox (18.34995pt too wide) in paragraph at lines 629--630
 [][] 
  []
 
-[8 <./Bilder/WirkungsplanDrehzahlregelkreis.PNG> <./Bilder/GegenUndMitkopplung.
+[9 <./Bilder/WirkungsplanDrehzahlregelkreis.PNG> <./Bilder/GegenUndMitkopplung.
 PNG>]
-Overfull \hbox (17.05675pt too wide) in paragraph at lines 599--602
+Overfull \hbox (17.05675pt too wide) in paragraph at lines 649--652
 []\OT1/cmr/m/n/10 Dagegen enth[]alt der Wir-kungs-plan aus dem Auf-ga-ben-blatt
  (s. Ab-bil-dung 4.1[]) je-doch zwei Bl[]ocke im Vorw[]artszweig,
  []
 
-[9]
-<Bilder/Sprungantwort_Gegenkopplung.PNG, id=71, 382.42876pt x 306.54526pt>
+[10]
+<Bilder/Sprungantwort_Gegenkopplung.PNG, id=82, 382.42876pt x 306.54526pt>
 File: Bilder/Sprungantwort_Gegenkopplung.PNG Graphic file (type png)
 <use Bilder/Sprungantwort_Gegenkopplung.PNG>
 Package pdftex.def Info: Bilder/Sprungantwort_Gegenkopplung.PNG  used on input 
-line 658.
+line 708.
 (pdftex.def)             Requested size: 267.69829pt x 214.5802pt.
- [10 <./Bilder/Sprungantwort_Gegenkopplung.PNG>]
+ [11 <./Bilder/Sprungantwort_Gegenkopplung.PNG>]
 chapter 5.
-(Ausarbeitung.bbl [11]) [12
+[12]
+chapter 6.
+(Ausarbeitung.bbl [13]
+Underfull \hbox (badness 10000) in paragraph at lines 24--28
+[]\OT1/cmr/m/sc/10 Pischtschan, M.\OT1/cmr/m/n/10 :  \OT1/cmr/m/it/10 An-triebs
+-re-ge-lungs-tech-nik\OT1/cmr/m/n/10 .  $\OT1/cmtt/m/n/10 https : / / bookdown\
+OML/cmm/m/it/10 :\OT1/cmtt/m/n/10 org / martin[]pischtschan /
+ []
+
+) [14
 
 
 ] (Ausarbeitung.aux)
@@ -949,36 +985,38 @@ L3 programming layer <2023-10-10>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 22481 strings out of 474823
- 450319 string characters out of 5750955
+ 22515 strings out of 474823
+ 451538 string characters out of 5750955
  1963043 words of memory out of 5000000
- 44096 multiletter control sequences out of 15000+600000
+ 44130 multiletter control sequences out of 15000+600000
  564049 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,9n,107p,10909b,1276s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,9n,107p,10909b,1841s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\wolfg\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 0800.pk> <C:\Users\wolfg\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1000.pk><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmbx10.pfb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/wolfg/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/wolfg/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/wolfg/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/wo
-lfg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
-Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.p
-fb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr7.pfb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr8.pfb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmsl10.pfb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/wolfg/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/wolfg/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/wolfg/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/wolfg/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Ausarbeitung.pdf (14 pages, 489979 bytes).
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/wolfg/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/wolfg/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/w
+olfg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
+/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr5.pfb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmr7.pfb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb><C:/Users/wolfg/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsl10.pfb><C:/Users/wolfg/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/wolfg/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/wolfg/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/wolfg/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Use
+rs/wolfg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b>
+Output written on Ausarbeitung.pdf (17 pages, 596500 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
+ 179 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

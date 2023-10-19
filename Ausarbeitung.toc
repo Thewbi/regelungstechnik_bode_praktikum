@@ -5,8 +5,10 @@
 \contentsline {paragraph}{\nonumberline Aufgabe 1 - Übertragungsfunktion}{2}{}%
 \contentsline {paragraph}{\nonumberline Aufgabe 2 - Reaktion auf Stellgrößensprung}{3}{}%
 \contentsline {paragraph}{\nonumberline Aufgabe 3 - Anstiegszeit}{4}{}%
-\contentsline {paragraph}{\nonumberline Aufgabe 3 - Bode-Diagramm}{5}{}%
-\contentsline {paragraph}{\nonumberline Aufgabe 5 - Einstellung Phasenrand}{6}{}%
-\contentsline {chapter}{\numberline {4}Abschnitt 4.2 - Simulation des Drehzahlregelkreises}{8}{}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{11}{}%
+\contentsline {paragraph}{\nonumberline Aufgabe 4 - Bode-Diagramm}{5}{}%
+\contentsline {paragraph}{\nonumberline Aufgabe 4 - Bode-Diagramm (Alternative)}{6}{}%
+\contentsline {paragraph}{\nonumberline Aufgabe 5 - Einstellung Phasenrand}{7}{}%
+\contentsline {chapter}{\numberline {4}Abschnitt 4.2 - Simulation des Drehzahlregelkreises}{9}{}%
+\contentsline {chapter}{\numberline {5}Methode: Betragsoptimum}{12}{}%
+\contentsline {chapter}{\numberline {6}Zusammenfassung und Ausblick}{13}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
